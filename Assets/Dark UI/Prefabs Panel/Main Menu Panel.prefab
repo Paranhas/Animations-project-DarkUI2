@@ -1124,6 +1124,8 @@ MonoBehaviour:
   - {fileID: 1990820141037419981}
   - {fileID: 7158801347624491695}
   - {fileID: 7110786287774344310}
+  listOfPhrases:
+  - {fileID: 0}
   startHided: 0
   animationDuration: 0.3
   delayBetweenObjects: 0.05

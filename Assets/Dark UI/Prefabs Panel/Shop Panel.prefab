@@ -271,7 +271,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223288233057022919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -314,6 +314,7 @@ MonoBehaviour:
   - {fileID: 7660301544550937790}
   - {fileID: 109076051452045947}
   listOfPhrases: []
+  uiBackground: {fileID: 1732825091348969515}
   startHided: 1
   animationDuration: 0.3
   delayBetweenObjects: 0.05
@@ -3966,6 +3967,7 @@ GameObject:
   - component: {fileID: 878225858210763129}
   - component: {fileID: 8311475597285410074}
   - component: {fileID: 834527284907451126}
+  - component: {fileID: 2994197703359472446}
   m_Layer: 5
   m_Name: Close
   m_TagString: Untagged
@@ -4074,7 +4076,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8311475597285410074}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2994197703359472446}
+        m_TargetAssemblyTypeName: Screens.ScreenHelper, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2994197703359472446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172172302609543653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6620555f2c749047827f289ab5a8c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenType: 0
 --- !u!1 &8478576743170742061
 GameObject:
   m_ObjectHideFlags: 0
